@@ -1,0 +1,99 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+
+body{
+    background-color:hsl(0, 100%, 74%) ;
+    background-image:url(bg-intro-desktop.png) ;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 10rem 0rem 14rem;
+    overflow: hidden;
+}
+.column:nth-child(1){
+    
+  padding: 2px;
+  margin-top: 10%;
+  height: 300px;
+}
+.column:nth-child(1)>p{
+    width: 99%;
+}
+.column:nth-child(1)>h2{
+    width: 1%;
+}
+.form{
+    align-items: center;
+    padding: 45px;
+    width: 350px;
+    background: white;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+
+}
+.input{
+    padding: 15px;
+    border-radius: 5px;
+    width: 350px;
+    align-content: center;
+    margin-left: -5%;
+    margin-right: 5%;
+    margin-bottom: 10px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    border: none;
+
+}
+.buttf{
+    padding: 15px;
+    border-radius: 5px;
+    width: 380px;
+    align-content: center;
+    margin-left: -5%;
+    margin-right: 5%;
+    margin-bottom: 10px; 
+    background-color: hsl(154, 59%, 51%); 
+    font-family: Poppins;
+    font-size: 16px;
+    color: white;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    border: none;
+    height: 10%;
+}
+p{
+    font-family: Poppins;
+    font-size: 16px;
+    color: white;
+    width: 100%;
+}
+h1{
+    font-family: Poppins;
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+    width: 60%;
+}
+.butt{
+    padding: 15px;
+    border-radius: 5px;
+    width: 430px;
+    align-content: center;
+    margin-left: 1%;
+    margin-right: 25%;
+    margin-bottom: 10px; 
+    background-color: hsl(248, 32%, 49%); 
+    font-family: Poppins;
+    font-size: 16px;
+    color: white; 
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    border: none;
+}
+.form>p{
+    height: 1%;
+    font-size: 11px;
+    color: hsl(246, 25%, 77%);
+    width: 450px
+}
